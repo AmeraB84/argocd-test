@@ -7,7 +7,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  description: tester un projet dans argocd dans un autre cluster 
+  description: tester un projet dans argocd dans un autre cluster
   # Allow manifests to deploy from any Git repos
   sourceRepos:
   - '*'
